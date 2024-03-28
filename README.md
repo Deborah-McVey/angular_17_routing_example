@@ -2,26 +2,75 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
-## Development server
+Steps:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+open Command Prompt
 
-## Code scaffolding
+cd to folder on my computer I want new angular project folder
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng new angular_17_routing_example
 
-## Build
+selected CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+no for SSR
 
-## Running unit tests
+code angular_17_routing_example
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+opens in Visual Studio Code
 
-## Running end-to-end tests
+open a terminal
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+make 2 components for examples
 
-## Further help
+open in browser
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng s -o
+
+localhost:4200 in browser
+
+shows "Hello, angular_17_routing_example
+congradualtions, you're app is running
+
+# app.component.html
+
+delete everything there
+
+will get blank page after refreshes
+
+add something in tags to test
+
+add router outlet below
+
+add nav and list items to test
+
+put in anchor tags
+
+# app.routes.ts
+
+routing paths in routes array
+
+# app.component.ts
+
+add imports RouterLink and RouterLinkActive
+
+# app.routes.ts
+
+change it for lazy loading
+
+Ctrl + C to stop server
+
+Adding children
+
+ng g c child-a
+
+ng g c child-b
+
+ng s -o
+
+
+
+
+
+ng g c first
+
+ng g c second
